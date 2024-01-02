@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Guess The Word</title>
+</head>
+<body>
+  <div id="game-container">
+    <h1 id="title">Guess The Word</h1>
+    <div id="score-display">Score: <span id="score">0</span></div>
+    <div id="level-display">Level: <span id="level">1</span></div>
+    <h2 id="word-display"></h2>
+    <div id="hint-display"></div>
+    <input type="text" id="guess-input" placeholder="Your Guess">
+    <button onclick="checkGuess()">Next</button>
+    <p id="result-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

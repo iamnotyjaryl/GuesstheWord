@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color:aquamarine;
+  }
+  
+  #game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #title {
+    font-size: 24px;
+  }
+  
+  #score-display, #level-display {
+    margin-bottom: 10px;
+  }
+  
+  #word-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #hint-display {
+    margin-bottom: 20px;
+  }
+  
+  #guess-input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #result-message {
+    margin-top: 10px;
+    color: red;
+  }
